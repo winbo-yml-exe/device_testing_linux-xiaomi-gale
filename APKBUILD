@@ -25,11 +25,11 @@ makedepends="
 "
 
 # Source
-_repository="kernel_xiaomi_gale"
-_commit="48f448bbb8dcb87bcd6c60182ed0b63b7934bda6"
+_repository="pmos_kernel_xiaomi_gale"
+_commit="3ebbd545d5c3390b2d7c9f6faa89771edb0453f4"
 _config="config-$_flavor.$arch"
 source="
-	$pkgname-$_commit.tar.gz::https://github.com/rexix01/$_repository/archive/$_commit.tar.gz
+	$pkgname-$_commit.tar.gz::https://github.com/winbo-yml-exe/$_repository/archive/$_commit.tar.gz
 	$_config
 	selinux_include_generated_headers.patch
 	use_system_cpio.patch
